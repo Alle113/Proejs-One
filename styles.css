@@ -1,0 +1,335 @@
+
+
+/* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
+
+*, button
+{
+font-family: "Montserrat", "sans-serif";
+}
+
+h1
+{
+font-size: 64px;
+}
+
+.sectionpadding
+{
+margin-right: 64px;
+padding-left: 64px;
+}
+
+.purplesection
+{
+background-color: #800080;
+}
+
+.purplesection h1, h2
+{
+color: #ffa500;
+}
+
+.yellowsection
+{
+background-color: #ffff00;
+margin-top: 0px;
+}
+
+.yellowsectiontwo
+{
+background-color: #ffff00;
+margin-top: -44px;
+}
+
+.redsection
+{
+background-color: #ff0000;
+}
+
+.orangesection
+{
+background-color: #ffa500;
+margin-top: -44px;
+}
+
+.red
+{
+color: #ff0000;
+}
+
+.purple
+{
+color: #800080;
+}
+
+.firsthero {
+height: 100%;
+}
+
+.firsthero:hover {
+    img: url('images/hero1bw');
+}
+
+.greysection
+{
+background-color: #d3d3d3;
+}
+
+
+.sectionheading
+{
+font-size: 64px;
+text-align: center;
+padding-top: 20px;
+font-weight: bold;
+}
+
+.playbutton
+{
+background-color: #800080;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.playbutton:hover {
+  background-color: #ffa500;
+  color: #800080;
+}
+
+.playbuttonyellow
+{
+background-color: #ffa500;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.playbuttonyellow:hover {
+  background-color: #ffff00;
+  color: #ffa500;
+}
+
+@media only screen and (max-width: 600px) {
+  .playbuttonyellow {
+    margin-bottom: 30px;
+}
+}
+
+
+.playbuttonred
+{
+background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.playbuttonred:hover {
+  background-color: #ffff00;
+  color: #ffa500;
+}
+
+.extramargin
+{
+  margin-bottom: 20px;
+}
+
+.extrapadding
+{
+  padding-bottom: 30px!important;
+}
+
+.orange
+{
+    background-color: rgba(255,165,0, 1)
+}
+
+.white
+{
+    color: rgba(255,255,255, 1)
+}
+
+.lefthero img
+{
+height: 100%;
+}
+
+.righthero h2
+{
+font-size: 100px;
+}
+
+.righthero
+{
+text-align: center;
+padding-top: 100px;
+}
+
+.sprinkles
+{
+margin: 200px 200px 200px 200px;
+}
+
+.centertext
+{
+text-align: center;
+padding-bottom: 10px;
+}
+
+.spin
+{
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+  margin-top: 20px;
+}
+
+.spin:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+img
+{
+width: 100%;
+height: 100%;
+}
+
+
+
+.zoom {
+    padding: 50px;
+    background-color: red;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoomtwo {
+transition: transform .2s; /* Animation */
+
+}
+
+.zoomtwo:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.transparent
+{
+    background-color: rgba(255, 255, 0, 0.8)
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+a {
+    padding: 20px;
+    background-color: none;
+    text-decoration: none;
+}
+
+a:hover {
+color: #800080;
+text-decoration: underline  #800080;
+}
+
+.active {
+    background-color: #4CAF50;
+    text-decoration: none;
+}
+
+.twenty
+{
+    width: 15%;
+    height: 15%;
+    padding-bottom: 20px;
+}
+
+.randompersonDisplay
+{
+    color: blue;
+}
+
+.footerbg
+{
+    background-image: url ("/images/donotenter.jpg")
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #ffff00;
+  height: 40px;
+  padding-top: 20px;
+  text-align: center;
+
+}
+@media only screen and (max-width: 600px) {
+  #navbar a {
+    font-size: 12px;
+    padding-top: 2px!important;
+    padding: 2px!important;
+
+}
+}
+
+/* Navbar links */
+#navbar a {
+  color: #800080;
+  text-align: center;
+  padding: 34px;
+  text-decoration: none;
+
+}
+
+#navbar a:hover
+
+{
+  text-decoration: underline;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+
+
+
+
+footer
+{
+    background-color: #800080;
+    padding: 40px;
+    margin: 0px 0px;
+}
